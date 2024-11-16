@@ -3,15 +3,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-  /* .App {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color:#313d04;
-    min-height: 100vh;
-    padding: 20px;
-    border-radius: 5px;
-  } */
-
+  
   .App {
     display: flex;
     flex-direction: column;
@@ -21,11 +13,7 @@ box-sizing: border-box;
     margin: 0 auto;
     text-align: center; 
   }
-  /* body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  } */
+ 
   
   h1, h2 {
     color: #1b66a7;
@@ -36,7 +24,7 @@ box-sizing: border-box;
     justify-content: space-between;
     padding: 20px;
     background-color: #333;
-    color: #fff;
+    color: #ce6f6f;
   }
   
   .project-card {
