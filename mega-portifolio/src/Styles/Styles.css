@@ -1,13 +1,31 @@
-body {
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+  /* .App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:#313d04;
+    min-height: 100vh;
+    padding: 20px;
+    border-radius: 5px;
+  } */
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 auto;
+    text-align: center; 
+  }
+  /* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
-
-.App{
-    align-content: center;
-    background-color: cornflowerblue;
-}
+  } */
   
   h1, h2 {
     color: #1b66a7;
@@ -27,4 +45,3 @@ body {
     margin: 10px;
     border-radius: 5px;
   }
-  
